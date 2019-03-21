@@ -5,8 +5,6 @@ AWS Access control list is written is mostly written in xml similar to like this
 see permissions
 ![alt text](grantsCONSOLE.png "grantsConsole")
 
-
-
 ```xml
   <?xml version="1.0" encoding="UTF-8">
 <AccessControlPolicy xmlns="http://s3.amazonaws.com/doc/2006-03-01">
@@ -35,3 +33,5 @@ Access Control list ACL mostly similar to like this and you can see Permission t
 # Through aws cli :
 
 You can set acl by using tag in command like this ```--acl public-read```
+
+``` aws s3 cp ./grantsCONSOLE.png s3://bucketname/public --acl public-read ```

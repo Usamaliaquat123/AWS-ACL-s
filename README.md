@@ -1,10 +1,11 @@
 # AWS ACL (Access Control List):
 
-AWS Access control list is written is mostly written in xml similar to like this
+
 
 see CONSOLE permissions
 ![alt text](grantsCONSOLE.png "grantsConsole")
 
+AWS Access control list is written is mostly written in xml similar to like this
 ```xml
   <?xml version="1.0" encoding="UTF-8">
 <AccessControlPolicy xmlns="http://s3.amazonaws.com/doc/2006-03-01">
@@ -24,6 +25,8 @@ see CONSOLE permissions
     </AccessControlList>
 </AccessControlPolicy>
 ```
+Want to get your canonical ID ==> ```MY Security Credientials ``` > ``` Account identifiers ``` and there you can get can-ID
+
 each default ACL can have up to 100 ```<GRANT>```s
 
 Access Control list ACL mostly similar to like this and you can see Permission tag its a ```FULL_CONTROL``` on that on s3 object or a bucket

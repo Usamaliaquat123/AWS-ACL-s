@@ -1,6 +1,12 @@
 # AWS ACL (Access Control List):
 
 AWS Access control list is written is mostly written in xml similar to like this
+
+see permissions
+![alt text](grantsCONSOLE.png "grantsConsole")
+
+
+
 ```xml
   <?xml version="1.0" encoding="UTF-8">
 <AccessControlPolicy xmlns="http://s3.amazonaws.com/doc/2006-03-01">

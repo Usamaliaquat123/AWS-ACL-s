@@ -20,6 +20,7 @@ AWS Access control list is written is mostly written in xml similar to like this
     </AccessControlList>
 </AccessControlPolicy>
 ```
+each default ACL can have up to 100 ```<GRANT>```s
 
 Access Control list ACL mostly similar to like this and you can see Permission tag its a ```FULL_CONTROL``` on that on s3 object or a bucket
 

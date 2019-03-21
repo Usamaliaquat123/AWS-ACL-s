@@ -24,8 +24,8 @@ each default ACL can have up to 100 ```<GRANT>```s
 
 Access Control list ACL mostly similar to like this and you can see Permission tag its a ```FULL_CONTROL``` on that on s3 object or a bucket
 
-###OR
+### OR
 
-#Through aws cli :
+# Through aws cli :
 
 You can set acl by using tag in command like this ```--acl public-read```

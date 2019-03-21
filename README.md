@@ -30,7 +30,7 @@ Access Control list ACL mostly similar to like this and you can see Permission t
 
 ### OR
 
-# Through aws cli :
+# Through aws cli which is Canned ACL's :
 
 You can set acl by using tag in command like this ```--acl public-read```
 

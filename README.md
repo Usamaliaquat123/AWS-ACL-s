@@ -2,7 +2,7 @@
 
 AWS Access control list is written is mostly written in xml similar to like this
 
-see permissions
+see CONSOLE permissions
 ![alt text](grantsCONSOLE.png "grantsConsole")
 
 ```xml
@@ -31,6 +31,9 @@ Access Control list ACL mostly similar to like this and you can see Permission t
 ### OR
 
 # Through aws cli which is Canned ACL's :
+
+Canned ACL's permissions
+![alt text](grantsCANNED.png "grantsCANNED")
 
 You can set acl by using tag in command like this ```--acl public-read```
 

@@ -35,3 +35,5 @@ Access Control list ACL mostly similar to like this and you can see Permission t
 You can set acl by using tag in command like this ```--acl public-read```
 
 ``` aws s3 cp ./grantsCONSOLE.png s3://bucketname/public --acl public-read ```
+
+Now this object is visible public. You can change it everyone public to any user into AWS console

@@ -1,7 +1,7 @@
 # AWS ACL (Access Control List):
 
 AWS Access control list is written is mostly written in xml similar to like this
-```
+```xml
   <?xml version="1.0" encoding="UTF-8">
 <AccessControlPolicy xmlns="http://s3.amazonaws.com/doc/2006-03-01">
     <Owner>
@@ -16,6 +16,15 @@ AWS Access control list is written is mostly written in xml similar to like this
                 <DisplayName>display-name</DisplayName>
             </Grantee>
         </Grant>
+        <Permission>FULL_CONTROL</Permission>
     </AccessControlList>
 </AccessControlPolicy>
 ```
+
+Access Control list ACL mostly similar to like this and you can see Permission tag its a ```FULL_CONTROL``` on that on s3 object or a bucket
+
+###OR
+
+#Through aws cli :
+
+You can set acl by using tag in command like this ```--acl public-read```

@@ -12,5 +12,6 @@
                 <DisplayName>display-name</DisplayName>
             </Grantee>
         </Grant>
+        <Permission>FULL_CONTROL</Permission>
     </AccessControlList>
 </AccessControlPolicy>
